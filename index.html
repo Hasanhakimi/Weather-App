@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video id="background_vido" muted loop autoplay >
+        <source src="https://youtu.be/hMxlDbv-rec?si=EuGf8IxFXJLeLWdS" type="video.mp4">
+    </video>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Search your city" >
+            <button  id="btn"><img src="./weather-app-img/images/search.png" alt=""></button>
+        </div>
+        <p id="error">City name is invalid</p>
+        <div class="weather">
+            
+            <h2 class="w-city">Kabul</h2>
+             <div class="weather_info">
+               <img class="weather_icon" src="./weather-app-img/images/rain.png" alt="" >
+               <h1 class="w-temp">22</h1><span>°C</span>
+               <div class="day_weather_condition">
+                <h2>weather</h2>
+                <h3 class="time">Thursday 21:00</h3>
+               <p class="weather-condition">Cloudy</p>
+
+               </div>
+             </div>
+            
+         
+       
+        
+        <div class="w-details">
+            <div class="col1">
+                <img src="./weather-app-img/images/humidity.png" class="humidity">
+                <div class="w-m-details">
+
+                    <h1 class="w_humidity">50%</h1>
+                    <p>Humidity</p>
+                </div>
+                
+            </div>
+             <div class="col1">
+                <img src="./weather-app-img/images/wind.png" class="humidity">
+                 <div class="w-m-details">
+
+                    <h1 class="wind_speed">20km/h</h1>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+   
+    <script src="app.js"></script>
+</body> 
+</html>
