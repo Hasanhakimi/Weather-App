@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    background: #0D65B8;
     width: 100vw;
     height: 100vh;
+    background: #0D65B8;
     font-family: "Inter",sans-serif;
     position: relative;
-    overflow: hidden;
     transition: all 0.3s ease;
+    overflow-x: hidden;
 }
 .card{
-    width: 90%;
-    margin: 100px  auto;
+    width: 100%;
     max-width: 500px;
+    margin: 100px  auto;
     background-image: url(./weather-app-img/images/weatherbackground.jpg);
     background-size: contain;
     
@@ -140,4 +140,13 @@ body{
     height: 100%;
     z-index: -2;
 
+}
+
+@media screen and (max-width:900px) {
+   
+    /* .card{
+        width: 100%;
+        margin-bottom: 100px;
+    } */
+    
 }
